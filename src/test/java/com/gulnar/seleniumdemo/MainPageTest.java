@@ -43,7 +43,7 @@ public class MainPageTest {
     public void toolsMenu() {
         mainPage.toolsMenu.click();
 
-        $("div[data-test='main-menu']").shouldBe(visible);
+        $("nav[data-test='main-menu']").shouldBe(visible);
     }
 
     @Test
